@@ -29,7 +29,7 @@ function seleccionarMascotaJugador () {
     sectionSeleccionarMascota.style.display = 'none'
 
     let sectionSeleccionarAtaque = document.querySelector('.seleccionar-ataque')
-    sectionSeleccionarAtaque.style.display = 'block'
+    sectionSeleccionarAtaque.style.display = 'flex'
 
     let inputHipodoge = document.querySelector('.hipodoge')
     let inputCapipepo = document.querySelector('.capipepo')

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Secular One', sans-serif;;
+    background-image: url('./assets/2321x1645-px-afternoon-day-Grovyle-pokemon-scenery-1708267-wallhere.com.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seleccionar-mascota{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+}
+
+.seleccionar-mascota h2 {
+    color: white;
+    background-color:  #006cbc;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+}
+
+.tarjetas input{
+    display: none;
+}
+
+.tarjeta-de-mokepon {
+    display: flex;
+    width: auto;
+    height: 100px;
+    background: #123c64;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .tarjeta-de-mokepon p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .tarjeta-de-mokepon img {
+    width: 90px;
+    height: 80px;
+  }
+
+  .button-mascota {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #0b388b;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border: 1px solid #fafafa;
+    cursor: pointer;
+  }
+
+.seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-attack {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #0b388b;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border: transparent;
+    cursor: pointer;
+}

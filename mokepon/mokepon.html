@@ -6,40 +6,67 @@
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <title>MOKEPON</title>
     <script src="./js/mokepon.js"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>MOKEPON! 🔥💧🌄</h1>
-
+    <section class="logo">
+        <img src="https://fontmeme.com/permalink/221025/13fddf142e284cbbba9a5cbdfb91a3ad.png" alt="logo" class="logo">
+    </section>
+    
     <section class="seleccionar-mascota">
+        
+
         <h2>Elige tu mascota:</h2>
 
-        <label for="hipodoge">Hipodoge</label>
-        <input type="radio" name="mascota" class="hipodoge" />
-        <label for="capipepo">Capipepo</label>
-        <input type="radio" name="mascota" class="capipepo" />
-        <label for="ratigueya">Ratigueya</label>
-        <input type="radio" name="mascota" class="ratigueya" />
+        <div class="tarjetas">
+            <label class="tarjeta-de-mokepon" for="hipodoge">
+                <p>Pikachu</p>
+                <img src="./assets/Cute-Pikachu-PNG-Free-Download.png" alt="" class="pikachu">
+            </label>
+            <input type="radio" name="mascota" class="hipodoge" />
+
+            <label class="tarjeta-de-mokepon" for="capipepo">
+                <p>Charizard</p>
+                <img src="./assets/NicePng_charizard-png_176573.png" alt="Charizard" class="charizard">
+            </label>
+            <input type="radio" name="mascota" class="capipepo" />
+
+            <label class="tarjeta-de-mokepon" for="ratigueya">
+                <p>Bulbasaur</p>
+                <img src="./assets/NicePng_bulbasaur-png_992459.png" alt="Bulbasaur" class="bulbasaur">
+            </label>
+            <input type="radio" name="mascota" class="ratigueya" />
+
+        </div>
         
         <button class="button-mascota">Seleccionar</button>
     </section>
 
     <section class="seleccionar-ataque">
-        <p>Tu mascota <span class="mascota-jugador"></span> tiene <span class="vidas-jugador">3</span> vidas</p>
-        <p>La mascota <span class="mascota-enemigo"></span> del enemigo tiene <span class="vidas-enemigo">3</span> vidas</p>
 
-        <p>
-            <button class="button-fuego">Fuego 🔥</button>
-            <button class="button-agua">Agua 💧</button>
-            <button class="button-tierra">Tierra 🌄</button>
-        </p>
-    </section>
+        <h2>Elige tu ataque:</h2>
 
-    <section class="mensajes">
+        <div>
+            <button class="button-fuego button-attack">Fuego 🔥</button>
+            <button class="button-agua button-attack">Agua 💧</button>
+            <button class="button-tierra button-attack">Tierra 🌄</button>
+        </div>
+
+        <div>
+            <section class="mensajes">
             
-        </section>
+            </section>
 
         <section class="reiniciar">
             <button class="button-reset">Reiniciar</button>
         </section>
+        </div>
+
+        <p>Tu mascota <span class="mascota-jugador"></span> tiene <span class="vidas-jugador">3</span> vidas</p>
+        <p>La mascota <span class="mascota-enemigo"></span> del enemigo tiene <span class="vidas-enemigo">3</span> vidas</p>
+ 
+    </section>
+
+    
 </body>
 </html>
